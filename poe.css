@@ -7,22 +7,14 @@ body{
  
     }
 
-p{
-    color: black;
-    font-size: 1em;
-    font-style: oblique;
-}
 
-h1{
-    color: black;
-}
 
 .box1 {
  
     width: 1vw;
     height: 10vh;
     z-index: 0;
-    padding-left: 35%;
+    padding-left: 30%;
     padding-top: 4%;
     position: relative;
 }
@@ -32,7 +24,7 @@ h1{
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 14em;
+    font-size: 12em;
     z-index: 0;
     position: absolute;
     margin: 0%;
@@ -47,20 +39,20 @@ h1{
     padding-right: 10%; 
 }
 #valley1 {
-    color: rgb(253, 253, 253);
+    color: rgb(255, 255, 255);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 13em;
+    font-size: 15em;
     z-index: 2;
     position: relative;
-    padding-left: 50%;
+    padding-left: 60%;
 
 }
 .b2 {
    
-    width: 40vw;
-    height: 10vh;
+    width: 60vw;
+    height: auto;
     z-index: 3;
     float: right;
     position: relative;
@@ -69,7 +61,7 @@ h1{
 }
 
 #unrest1 {
-    color: rgb(255, 255, 255);
+    color: rgb(212, 77, 224);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -77,7 +69,7 @@ h1{
     z-index: 3;
     position: absolute;
     margin: 0%;
-    padding-right: 10%;
+    padding-right: 40%;
    
 
 }
@@ -91,14 +83,15 @@ h1{
 }
 
 #valley2 {
-    color: rgb(238, 239, 241);
+    color: rgb(161, 157, 157);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 15em;
     z-index: 4;
     margin: 0%;
-    opacity: 0.2;
+  
+   
 
 }
 
@@ -114,7 +107,7 @@ h1{
 }
 
 #unrest2 {
-    color: rgb(238, 239, 241);
+    color: rgb(168, 170, 173);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -122,7 +115,7 @@ h1{
     z-index: 14;
     float: right;
     padding-right: 35%;
-    opacity: 0.2;
+   
     
 
 }
@@ -133,10 +126,12 @@ h1{
     z-index: 5;
     float: right;
     position: absolute;
+    padding-top: 30%;
+    padding-right: 3%;
  
 }
 #aut1 {
-    color: rgb(255, 255, 255);
+    color: rgb(161, 157, 157);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -155,11 +150,11 @@ h1{
     z-index: 6;
     float: right;
     position: relative;
-    padding-top: 10%;
+    padding-top: 32%;
  
 }
 #date1 {
-    color: rgb(255, 255, 255);
+    color: rgb(161, 157, 157);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -167,7 +162,7 @@ h1{
     z-index: 6;
     position: relative;
     margin: 0%;
-    margin-left: 54%;
+    margin-left: 55%;
     
 }
 .bb3 {
@@ -176,30 +171,32 @@ h1{
     z-index: 6;
     float: right;
     position: relative;
-    padding-top: 5%;
+    padding-top: 3%;
  
 }
 #info1 {
-    color: rgb(255, 255, 255);
+    color: rgb(161, 157, 157);
     font-family: starling, serif;
     font-weight: 300;
-    font-style: normal;
+    font-style: italic;
     font-size: 1em;
     z-index: 6;
     position: relative;
     margin: 0%;
-    margin-left: 54%;
+    margin-left: 67%;
+
     
 
 }
 p{
     color: rgb(250, 250, 250);
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: starling, serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     text-align: right;
     z-index: 15;
+   
    
 }
 .box4 {
@@ -207,8 +204,8 @@ p{
     width: 80vw;
     height: 110vh;
     z-index: 6;
-    padding-top: 30%;
-    padding-left: 8%;
+    padding-top: 45%;
+    padding-left: 7%;
     
 }
 .box5 {
@@ -217,12 +214,13 @@ p{
     height: 2vh;
     z-index: 15;
     position: relative;
-    padding: 0%;
+    padding: 5%;
     margin: auto;
+    padding-top: 3%;
 }
 
 #valley3 {
-    color: rgb(238, 239, 241);
+    color: rgb(212, 77, 224);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -243,7 +241,7 @@ p{
 }
 
 #unrest3 {
-    color: rgb(238, 239, 241);
+    color: rgb(212, 77, 224);
     font-family: sloop-script-three, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -253,514 +251,547 @@ p{
   
 }
 
+
+
+
+
 @media only screen and (max-width: 800px) {
 
-   body {
-    background-image: linear-gradient(to left, rgb(255, 249, 249), rgb(255, 255, 255));
-   }
+    body {
+        background-image: linear-gradient(to left, rgb(255, 249, 249), rgb(255, 255, 255));
+    }
  
- 
-.box1 {
-  
-    width: 20vw;
-    height: 10vh;
-    z-index: 0;
-    padding-left: 11%;
-    padding-top: 4%;
-    position: relative;
+    
+    .box1 {
+    
+        width: 20vw;
+        height: 10vh;
+        z-index: 0;
+        padding-left: 13%;
+        padding-top: 10%;
+        position: relative;
 
-}
+    }
 
-#the1{
-    color: black;
-    font-family: sheila, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 0;
-    position: absolute;
-    transform: rotate(-90deg);
-}
+    #the1{
+        color: black;
+        font-family: sheila, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4em;
+        z-index: 0;
+        position: absolute;
+        transform: rotate(-90deg);
+    }
 
-.b1 {
-  
-    width: .5vw;
-    height: 16vh;
-    z-index: 2;
-    position: relative;
-    padding-top: 7%;
-   
-}
-#valley1 {
-    color: black;
-    font-family: sheila, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 2;
-    position: absolute;
-    transform: rotate(-90deg);
-    padding-right: 11%;
+    .b1 {
+    
+        width: .5vw;
+        height: 16vh;
+        z-index: 2;
+        position: relative;
+        padding-top: 7%;
+    
+    }
+    #valley1 {
+        color: black;
+        font-family: sheila, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4em;
+        z-index: 2;
+        position: absolute;
+        transform: rotate(-90deg);
+        padding-right: 11%;
 
-}
-.b2 {
-   
-    width: 70vw;
-    height: 10vh;
-    z-index: 3;
-    float: right;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
+    }
+    .b2 {
+        
+        width: 70vw;
+        height: auto;
+        z-index: 3;
+        position: relative;
+        float: right;
+     
+    }
 
-#unrest1 {
-    color: black;
-    font-family: sheila, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 3;
-    position: absolute;
-    margin: 0%;
-    padding-right: 10%;
-   
-
-}
-.box2 {
-    width: 70vw;
-    height: 2vh;
-    z-index: 1;
-    float: right;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
-
-#valley2 {
-    color: rgb(177, 180, 185);
-    font-family: sheila, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 4;
-    margin: 0%;
- 
-
-}
-
-.bb2 {
-
-    width: 100vw;
-    height: 2vh;
-    z-index: 4;
-    float: right;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
-
-#unrest2 {
-    color: rgb(177, 180, 185);
-    font-family: sheila, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 4;
-    transform: rotate(180deg);
-
-}
-.box3 {
-
-    width: 80vw;
-    height: 1vh;
-    z-index: 5;
-    float: right;
-    position: absolute;
- 
-}
-#aut1 {
-    color: rgb(0, 0, 0);
-    font-family: sheila, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    float: right;
-    font-size: 1.5em;
-    z-index: 5;
-    position: relative;
-    margin: 0%;
-  
-
-}
-.b3 {
-   
-    width: 80vw;
-    height: 1vh;
-    z-index: 6;
-    float: right;
-    position: relative;
-    padding-top: 10%;
- 
-}
-#date1 {
-    color: rgb(0, 0, 0);
-    font-family: sheila, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1em;
-    z-index: 6;
-    position: relative;
-    margin: 0%;
-    margin-left: 13%;
+    #unrest1 {
+        color: black;
+        font-family: sheila, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4em;
+        z-index: 3;
+        position: absolute;
+        padding-right: 16%;
+       
     
 
-}
-.bb3 {
-    width: 80vw;
-    height: 1vh;
-    z-index: 6;
-    float: right;
-    position: relative;
-    padding-top: 5%;
- 
-}
-#info1 {
-    color: rgb(0, 0, 0);
-    font-family: sheila, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 6;
-    font-size: 1em;
-    position: relative;
-    margin: 0%;
-    margin-left: 13%;
+    }
+    .box2 {
+        
+        width: 90vw;
+        height: auto;
+        z-index: 1;
+        float: right;
+        position: relative;
+        padding: 0%;
+       
+    
+    }
+
+    #valley2 {
+        color: rgb(192, 196, 201);
+        font-family: natalya, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.5em;
+        z-index: 1;
+        position: absolute;
+        opacity: 0.1;
+    
+       
+       
+
+    }
+
+    .bb2 {
+
+        width: 100vw;
+        height: 2vh;
+        z-index: 4;
+        float: right;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+        padding-right: 10%;
+      
+    }
+
+    #unrest2 {
+        color: rgb(178, 187, 194);
+        font-family: sheila, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 4.5em;
+        z-index: 4;
+        transform: rotate(180deg);
+        padding-left: 0%;
+        opacity: 0.1;
+        
+
+    }
+    .box3 {
+
+        width: 80vw;
+        height: auto;
+        z-index: 5;
+        float: right;
+        position: absolute;
+        padding-top: 0%;
+    
+    }
+    #aut1 {
+        color: rgb(0, 0, 0);
+        font-family: sheila, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        float: right;
+        font-size: 1.5em;
+        z-index: 5;
+        position: relative;
+        margin: 0%;
     
 
-}
-p{
-    color: black;
-    font-size: 1em;
-    font-family: mrs-eaves-roman-lining, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-align: center;
-   
-}
-.box4 {
- 
-    width: 80vw;
-    height: 140vh;
-    z-index: 6;
-    padding-top: 30%;
-    padding-left: 8%;
+    }
+    .b3 {
     
+        width: 80vw;
+        height: 1vh;
+        z-index: 6;
+        float: right;
+        position: relative;
+        padding-top: 10%;
+    
+    }
+    #date1 {
+        color: rgb(0, 0, 0);
+        font-family: sheila, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1em;
+        z-index: 6;
+        position: relative;
+        margin: 0%;
+        margin-left: 13%;
+        
 
+    }
+    .bb3 {
+        width: 80vw;
+        height: 1vh;
+        z-index: 6;
+        float: right;
+        position: relative;
+        padding-top: 5%;
+    
+    }
+    #info1 {
+        color: rgb(0, 0, 0);
+        font-family: sheila, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 4em;
+        z-index: 6;
+        font-size: 1em;
+        position: relative;
+        margin: 0%;
+        margin-left: 13%;
+        
+
+    }
+    p{
+        color: black;
+        font-size: 1em;
+        font-family: mrs-eaves-roman-lining, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+    
+    }
+    .box4 {
+    
+        width: 80vw;
+        height: 140vh;
+        z-index: 6;
+        padding-top: 30%;
+        padding-left: 8%;
+        
+
+    }
+    .box5 {
+
+        width: 70vw;
+        height: 2vh;
+        z-index: 4;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+    }
+
+    #valley3 {
+        color: rgb(177, 180, 185);
+        font-family: sheila, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 4em;
+        z-index: 4;
+        margin: 0%;
+
+    }
+    .b5 {
+    
+        width: 70vw;
+        height: 35vh;
+        z-index: 1;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+    }
+
+    #unrest3 {
+        color: rgb(177, 180, 185);
+        font-family: sheila, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 4em;
+        z-index: 4;
+        transform: rotate(180deg);
+
+    }
 }
-.box5 {
-
-    width: 70vw;
-    height: 2vh;
-    z-index: 4;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
-
-#valley3 {
-    color: rgb(177, 180, 185);
-    font-family: sheila, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 4;
-    margin: 0%;
-
-}
-.b5 {
-   
-    width: 70vw;
-    height: 35vh;
-    z-index: 1;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
-
-#unrest3 {
-    color: rgb(177, 180, 185);
-    font-family: sheila, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 4em;
-    z-index: 4;
-    transform: rotate(180deg);
-
-}
-     }
 
    
 
 @media only screen and (min-width: 800px) and (max-width: 1280px) {
 
     body{
-        background-image: linear-gradient( rgb(37, 9, 114), rgba(255,255,255));
+        background-image: linear-gradient( rgb(37, 9, 114), rgb(122, 120, 120) ,rgb(37, 9, 114));
 
     }
 
-   
-p{
-    color: black;
-    font-size: 1em;
-    font-style: oblique;
-
-}
-
-h1{
-    color: black;
     
-}
+    .box2 {
+        width: 70vw;
+        height: 2vh;
+        z-index: 1;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+    }
+    
+    #valley2 {
+        color: rgb(255, 255, 255);
+        font-family: sloop-script-three, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 10em;
+        z-index: 4;
+        margin: 0%;
+      
+       
+    
+    }
 
-.box1 {
+    .box1 {
+    
+        width: 10vw;
+        height: 10vh;
+        z-index: 0;
+        padding-left: 26%;
+        position: relative;
+
+    }
+
+    #the1{
+        color: rgb(128, 46, 148);
+        font-family: natalya, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+        z-index: 0;
+        position: absolute;
+        opacity: 0.1;
+    
+        
+    
+    }
+
+    .b1 {
+    
+        width: 10vw;
+        height: auto;
+        z-index: 9;
+        position: relative;
+        padding-left: 9%;
+        padding-top: 45%;
+    
+    
+    }
+    #valley1 {
+        color: rgb(134, 131, 134);
+        font-family: natalya, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+        z-index: 9;
+        position: absolute;
+        transform: rotate(-90deg);
+        opacity: 0.1;
+    
+
+    }
+    .b2 {
+   
+        width: 60vw;
+        height: auto;
+        z-index: 3;
+        float: right;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+    }
+    
+    #unrest1 {
+        color: rgb(255, 255, 255);
+        font-family: sloop-script-three, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 8em;
+        z-index: 3;
+        position: absolute;
+        margin: 0%;
+        padding-right: 40%;
+       
+    
+    }
+    .bb2 {
   
-    width: 10vw;
-    height: 10vh;
-    z-index: 0;
-    padding-left: 80%;
-    padding-top: 25%;
-    position: relative;
-
-}
-
-#the1{
-    color: rgb(238, 239, 241);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12em;
-    z-index: 0;
-    position: absolute;
-    opacity: 0.1;
-   
-}
-
-.b1 {
-  
-    width: 10vw;
-    height: 1vh;
-    z-index: 9;
-    position: relative;
-    padding-left: 77%;
-   
-   
-}
-#valley1 {
-    color: rgb(238, 239, 241);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 10em;
-    z-index: 9;
-    position: absolute;
-    opacity: 0.1;
-   
-
-}
-.b2 {
-   
-    width: 85vw;
-    height: 7vh;
-    z-index: 3;
-    float: right;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
-
-#unrest1 {
-    color: rgb(255, 255, 255);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12em;
-    z-index: 3;
-    position: absolute;
-    margin: 0%;
-    padding-right: 13%;
-    text-shadow: 2px 2px 4px #000000;
-   
-}
-.box2 {
+        width: 100vw;
+        height: 32vh;
+        z-index: 14;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+       
+    }
     
-    width: 80vw;
-    height: .5vh;
-    z-index: 1;
-    float: left;
-    position: relative;
-    padding: 0%;
+    #unrest2 {
+        color: rgb(44, 3, 155);
+        font-family: sloop-script-three, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: .5em;
+        z-index: 14;
+        float: right;
+        padding-right: 35%;
+        opacity: 0.1;
+        
     
-}
+    }
 
-#valley2 {
-    color: rgb(255, 255, 255);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 11em;
-    z-index: 1;
-    position: absolute;
-    text-shadow: 2px 2px 4px #000000; 
+    .bb2 {
 
-}
+        width: 60vw;
+        height: 2vh;
+        z-index: 9;
+        float: right;
+        position: relative;
+        padding-right: 4%;
+        margin: auto;
+        padding-top: 15%;
+    }
 
-.bb2 {
+    #unrest2 {
+        color: rgb(56, 201, 80);
+        font-family: natalya, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+        z-index: 9;
+        transform: rotate(0deg);
+     
+       
 
-    width: 60vw;
-    height: 2vh;
-    z-index: 4;
-    float: right;
-    position: relative;
-    padding-right: 50%;
-    margin: auto;
-    padding-top: 15%;
-}
+    }
+    .box3 {
 
-#unrest2 {
-    color: rgb(238, 239, 241);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 13em;
-    z-index: 4;
-    transform: rotate(90deg);
-    opacity: 0.1;
-
-}
-.box3 {
-
-    width: 78vw;
-    height: 1vh;
-    z-index: 5;
-    float: right;
-    position: absolute;
-    padding-left: 0%;
- 
-}
-#aut1 {
-    color: rgb(255, 251, 255);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    float: right;
-    font-size: 2em;
-    z-index: 5;
-    position: relative;
-    margin: 0%;
-  
-
-}
-.b3 {
-  
-    width: 50vw;
-    height: .5vh;
-    z-index: 6;
-    position: relative;
-    padding-right: 10%;
-   
- 
-}
-#date1 {
-    color: rgb(255, 255, 255);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.8em;
-    z-index: 6;
-    position: absolute;
-    margin-right: 0%;
-  
+        width: 78vw;
+        height: auto;
+        z-index: 5;
+        float: right;
+        position: absolute;
+        padding-left: 7%;
+        padding-top: 17%;
+    
+    }
+    #aut1 {
+        color: rgb(255, 255, 255);
+        font-family: poynter-oldstyle-display, serif;
+        font-weight: 400;
+        font-style: italic;        
+        float: right;
+        font-size: 1em;
+        z-index: 5;
+        position: relative;
+        margin: 0%;
     
 
-}
-.bb3 {
-    width: 80vw;
-    height: 1vh;
-    z-index: 6;
-    float: right;
-    position: relative;
-    padding-top: 5%;
- 
-}
-#info1 {
-    color: rgb(255, 255, 255);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5em;
-    z-index: 6;
-    position: relative;
-    margin: 0%;
-    margin-left: 39%;
+    }
+    .b3 {
     
-
-}
-p{
-    color: rgb(255, 254, 254);
-    font-size: 1.2em;
-    font-family: williams-caslon-text, serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-   
-}
-.box4 {
- 
-    width: 80vw;
-    height: 130vh;
-    z-index: 6;
-    padding-top: 30%;
-    padding-left: 8%;
+        width: 90vw;
+        height: auto;
+        z-index: 6;
+        position: relative;
+        padding-right: 5%;
+        padding-top: 21%;
     
+    
+    }
+    #date1 {
+        color: rgb(255, 255, 255);
+        font-family: poynter-oldstyle-display, serif;
+        font-weight: 400;
+        font-style: italic;  
+        font-size: 1em;
+        z-index: 6;
+        position: absolute;
+        margin-right: 0%;
+    
+        
 
-}
-.box5 {
+    }
+    .bb3 {
+        width: 80vw;
+        height: 1vh;
+        z-index: 6;
+        float: right;
+        position: relative;
+        padding-top: 4%;
+    
+    }
+    #info1 {
+        color: rgb(255, 255, 255);
+        font-family: poynter-oldstyle-display, serif;
+        font-weight: 400;
+        font-style: italic;  
+        font-size: 1em;
+        z-index: 6;
+        position: relative;
+        margin: 0%;
+        margin-left: 39%;
+        
 
-    width: 100vw;
-    height: 2vh;
-    z-index: 4;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
+    }
+    p{
+        color: rgb(255, 254, 254);
+        font-size: 1em;
+        font-family: williams-caslon-text, serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+    
+    }
+    .box4 {
+    
+        width: 80vw;
+        height: 150vh;
+        z-index: 6;
+        padding-top: 30%;
+        padding-left: 8%;
+        
 
-#valley3 {
-    color: rgb(238, 239, 241);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0em;
-    z-index: 4;
-    margin: 0%;
+    }
+    .box5 {
 
-}
-.b5 {
+        width: 100vw;
+        height: 2vh;
+        z-index: 4;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+    }
 
-    width: 100vw;
-    height: 1vh;
-    z-index: 10;
-    position: relative;
-    padding: 0%;
-    margin: auto;
-}
+    #valley3 {
+        color: rgb(238, 239, 241);
+        font-family: natalya, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0em;
+        z-index: 4;
+        margin: 0%;
 
-#unrest3 {
-    color: rgb(238, 239, 241);
-    font-family: natalya, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0em;
-    z-index: 10;
-    margin: 0%;
+    }
+    .b5 {
+
+        width: 100vw;
+        height: 1vh;
+        z-index: 10;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+    }
+
+    #unrest3 {
+        color: rgb(238, 239, 241);
+        font-family: natalya, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0em;
+        z-index: 10;
+        margin: 0%;
 
 
+    }
 }
